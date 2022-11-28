@@ -1,0 +1,70 @@
+header{
+    background-color: rgb(27, 18, 77);
+    padding: 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+button
+{
+    width: 60px;
+    padding: 5px;
+    background-color: rgb(3, 137, 190);
+    margin: 1px;
+    border: transparent;
+    border-radius: 3px;
+    color: white;
+    
+}
+button.hover
+{
+    background-color:rgb(2, 97, 134) ;
+}
+.content
+{
+    display: flex;
+    transform: translateY(25%);
+    justify-content: center;
+}
+.top
+{
+    background-color: rgb(78, 154, 204);
+    border-radius: 3px;
+    width: auto;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:row ;
+    margin-bottom: 5px;
+}
+.Calculator
+{
+    background-color: rgb(27, 18, 77);
+    width: 263px;
+    height: auto;
+    padding: 10px;
+    
+}
+.row1,.row2,.row3,.row4
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-bottom: 2px ;
+}
+.plus,.minus,.star,.slash
+{
+    background-color: blueviolet;
+}
+.clear button{
+    background-color: rgb(177, 14, 136);
+}
+.calc
+{
+    border: transparent;
+    height: 22px;
+}
