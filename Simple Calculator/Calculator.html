@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calculator.css">
     
-    <title>Simple Calculator</title>
+    <title>Scientific Calculator made by abhishekmanjeeram</title>
 </head>
 <body>
-    <header>Simple Calculator made using,html,css and javascript</header>
+    <header>Scientific Calculator made using,html,css and javascript</header>
     <div class="content">
     <div class="Calculator">
         <div class="top">
@@ -17,33 +17,52 @@
                 <input id="calc" type="text" placeholder="">
             </div>
             <div class="clear">
-                <button onclick="clearScr()">C</button>
+                <button onclick="clearScr()">Clear</button>
             </div>
         </div>
         <div class="row1">
+            <button class="sin" onclick="sine()">sin</button>
+            <button class="cos" onclick="cos()">cos</button>
+            <button class="tan" onclick="tan()">tan</button>
+            <button class="inv" onclick="inv()">INV</button>
+        </div>
+        <div class="row2">
+            <button onclick="input('(')">(</button>
+            <button onclick="input(')')">)</button>
+            <button class="power"onclick="input('**')">^</button>
+            <button class="sqr" onclick="sqr()">x&#178;</button>
+        </div>
+        <div class="row3">
+            <button class="log" onclick="log()">log</button>
+            <button class="ln" onclick="ln()">ln</button>
+            <button class="exp" onclick="exp()">e</button>
+            <button class="root" onclick="root()">&radic;x</button>
+        </div>
+        <div class="row4">
             <button onclick="input('1')">1</button>
             <button onclick="input('2')">2</button>
             <button onclick="input('3')">3</button>
             <button class="plus" onclick="input('+')">+</button>
         </div>
-        <div class="row2">
+        <div class="row5">
             <button onclick="input('4')">4</button>
             <button onclick="input('5')">5</button>
             <button onclick="input('6')">6</button>
             <button class="minus" onclick="input('-')">-</button>
         </div>
-        <div class="row3">
+        <div class="row6">
             <button onclick="input('7')">7</button>
             <button onclick="input('8')">8</button>
             <button onclick="input('9')">9</button>
-            <button class="star" onclick="input('*')">*</button>
+            <button class="star" onclick="input('*')">&#215;</button>
         </div>
-        <div class="row4">
+        <div class="row7">
             <button onclick="input('.')">.</button>
             <button onclick="input('0')">0</button>
             <button onclick="calculate()">=</button>
-            <button class="slash" onclick="input('/')">/</button>
+            <button class="slash" onclick="input('/')">&#247;</button>
         </div>
+        
     </div>
     </div>
     <script src="calculator.js"></script>
